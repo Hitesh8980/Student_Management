@@ -80,7 +80,7 @@ router.post('/upload', async (req, res) => {
       const missingFields = requiredFields.filter(field => !student[field]);
       if (missingFields.length > 0) {
         errors.push(`Missing fields (${missingFields.join(', ')}) for student with Admission Number: ${student['Admission Number']}`);
-        continue; /
+        continue; 
       }
 
       // Validate duplicate admission number
