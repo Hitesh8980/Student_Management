@@ -21,3 +21,16 @@ Generate QR codes based on students' admission numbers. These QR codes can be sc
 # Firebase Integration:
 
 All student data is stored in Firebase. The system uses Firebase batch operations to handle bulk uploads and processes student information securely.
+
+# Tech Stack
+Frontend: React.js, React-Bootstrap
+
+Backend: Node.js
+
+Database: Firebase
+
+Other Technologies:
+
+QR code generation
+
+Excel file handling for bulk uploads
